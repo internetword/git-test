@@ -1,0 +1,12 @@
+To open yt-dlp go in the folder where it is and type cmd then enter the yt-dlp command in the window.
+
+To download a video in the default format yt-dlp 'URL'
+
+To list all the format available for the video yt-dlp -F 'URL'
+
+To download a video in the format desired yt-dlp -f FORMAT_CODE 'URL'
+
+To list subtitles available for the video yt-dlp --list-subs 'URL'
+
+To download a subtitle yt-dlp --skip-download --write-sub --sub-lang LANG 'URL'
+To continue where it left off yt-dlp -c 'URL'
